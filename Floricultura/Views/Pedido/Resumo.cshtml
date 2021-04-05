@@ -1,0 +1,56 @@
+﻿
+@model Pedido;
+
+
+<div class="panel panel-success">
+    <div class="panel-heading"><h3>Resumo do Pedido : @(Model.Id)</h3></div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Seus Dados</h3>
+                <div>Nome: @Model.Cadastro.Nome</div>
+                <div>Telefone: @Model.Cadastro.Telefone</div>
+                <div>Email: @Model.Cadastro.Email</div>
+            </div>
+            
+            <div class="col-md-6">
+                <h3>Endereço de Entrega</h3>
+                <div>Endereço: @Model.Cadastro.Endereco </div>
+                <div>Município:  @Model.Cadastro.Municipio</div>
+                <div>UF: @Model.Cadastro.UF - Brasil</div>
+                <div>CEP: @Model.Cadastro.CEP </div>
+                <div>Bairro: @Model.Cadastro.Bairro</div>
+                <div>Complemento: @Model.Cadastro.Complemento </div>
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-md-10">
+                <h3>Item</h3>
+            </div>
+            <div class="col-md-2">
+                <h3>Quantidade</h3>
+            </div>
+        </div>
+
+        @foreach (var item in Model.Itens)
+        {
+
+
+<div class="row">
+
+    <div class="col-md-10">
+
+        <div>
+            <img class="img-produto-carrinho" src="/images/produtos/flor_@(item.Produto.Codigo).jpg" style="width:50px;height:50px;" />
+            @item.Produto.Nome
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="pull-right">@item.Quantidade</div>
+    </div>
+</div>
+        <br/>}
+
+    </div>
+</div>

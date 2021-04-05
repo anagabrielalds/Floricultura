@@ -1,0 +1,84 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+	  <TargetFramework>netcoreapp2.0</TargetFramework>
+	  <RootNamespace>Floricultura</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="ApplicationContext.cs" />
+    <Compile Include="Controllers\PedidoController.cs" />
+    <Compile Include="DataService.cs" />
+    <Compile Include="IDataService.cs" />
+    <Compile Include="Migrations\20180315183749_Inicial.cs" />
+    <Compile Include="Migrations\20180315183749_Inicial.Designer.cs" />
+    <Compile Include="Migrations\20180315184326_Modelo.cs" />
+    <Compile Include="Migrations\20180315184326_Modelo.Designer.cs" />
+    <Compile Include="Migrations\ApplicationContextModelSnapshot.cs" />
+    <Compile Include="Models\ErrorViewModel.cs" />
+    <Compile Include="Models\modelo.cs" />
+    <Compile Include="Models\UpdateQuantidadeResponse.cs" />
+    <Compile Include="Models\ViewModels\CarrinhoViewModel.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Repositories\BaseRepository.cs" />
+    <Compile Include="Repositories\CadastroRepository.cs" />
+    <Compile Include="Repositories\IProdutoRepository.cs" />
+    <Compile Include="Repositories\ItemPedidoRepository.cs" />
+    <Compile Include="Repositories\PedidoRepository.cs" />
+    <Compile Include="Repositories\ProdutoRepository.cs" />
+    <Compile Include="Startup.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+	
+    <None Include="wwwroot\images\banner1.svg" />
+    <None Include="wwwroot\images\banner2.svg" />
+    <None Include="wwwroot\images\banner3.svg" />
+    <None Include="wwwroot\images\banner4.svg" />
+    <None Include="wwwroot\js\carrinho.js" />
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\js\site.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\npm.js" />
+    <None Include="wwwroot\lib\bootstrap\LICENSE" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\LICENSE.md" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.js" />
+	<None Include="wwwroot\css\site.css" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<Content Include="..\..\..\_Recursos\produtos\livros.txt" Link="wwwroot\images\produtos\livros.txt" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+	</ItemGroup>
+
+	<Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+		<Exec Command="dotnet restore" />
+	</Target>
+
+	<PropertyGroup>
+		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+	</PropertyGroup>
+	
+</Project>

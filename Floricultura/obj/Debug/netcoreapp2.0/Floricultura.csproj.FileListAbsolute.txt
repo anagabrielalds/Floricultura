@@ -1,0 +1,32 @@
+C:\Users\ana.santos\source\repos\Floricultura\Floricultura\obj\Debug\netcoreapp2.0\Floricultura.AssemblyInfoInputs.cache
+C:\Users\ana.santos\source\repos\Floricultura\Floricultura\obj\Debug\netcoreapp2.0\Floricultura.AssemblyInfo.cs
+C:\Users\ana.santos\source\repos\Floricultura\Floricultura\obj\Debug\netcoreapp2.0\Floricultura.csproj.CoreCompileInputs.cache
+C:\Users\ana.santos\source\repos\Floricultura\Floricultura\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\ana.santos\source\repos\Floricultura\Floricultura\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\ana.santos\source\repos\Floricultura\Floricultura\bin\Debug\netcoreapp2.0\bundleconfig.json
+C:\Users\ana.santos\source\repos\Floricultura\Floricultura\bin\Debug\netcoreapp2.0\livros.json
+C:\Users\ana.santos\source\repos\Floricultura\Floricultura\bin\Debug\netcoreapp2.0\Floricultura.deps.json
+C:\Users\ana.santos\source\repos\Floricultura\Floricultura\bin\Debug\netcoreapp2.0\Floricultura.runtimeconfig.json
+C:\Users\ana.santos\source\repos\Floricultura\Floricultura\bin\Debug\netcoreapp2.0\Floricultura.runtimeconfig.dev.json
+C:\Users\ana.santos\source\repos\Floricultura\Floricultura\bin\Debug\netcoreapp2.0\Floricultura.dll
+C:\Users\ana.santos\source\repos\Floricultura\Floricultura\bin\Debug\netcoreapp2.0\Floricultura.pdb
+C:\Users\ana.santos\source\repos\Floricultura\Floricultura\obj\Debug\netcoreapp2.0\Floricultura.dll
+C:\Users\ana.santos\source\repos\Floricultura\Floricultura\obj\Debug\netcoreapp2.0\Floricultura.pdb
+C:\Users\ana.santos\source\repos\Floricultura\Floricultura\obj\Debug\netcoreapp2.0\Floricultura.genruntimeconfig.cache
+C:\Users\ana.santos\source\repos\Floricultura\Floricultura\obj\Debug\netcoreapp2.0\Floricultura.csprojAssemblyReference.cache
+C:\Alura\Projetos pra Revisão do Valdinei\Floricultura\Floricultura\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Alura\Projetos pra Revisão do Valdinei\Floricultura\Floricultura\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Alura\Projetos pra Revisão do Valdinei\Floricultura\Floricultura\bin\Debug\netcoreapp2.0\bundleconfig.json
+C:\Alura\Projetos pra Revisão do Valdinei\Floricultura\Floricultura\bin\Debug\netcoreapp2.0\livros.json
+C:\Alura\Projetos pra Revisão do Valdinei\Floricultura\Floricultura\bin\Debug\netcoreapp2.0\Floricultura.deps.json
+C:\Alura\Projetos pra Revisão do Valdinei\Floricultura\Floricultura\bin\Debug\netcoreapp2.0\Floricultura.runtimeconfig.json
+C:\Alura\Projetos pra Revisão do Valdinei\Floricultura\Floricultura\bin\Debug\netcoreapp2.0\Floricultura.runtimeconfig.dev.json
+C:\Alura\Projetos pra Revisão do Valdinei\Floricultura\Floricultura\bin\Debug\netcoreapp2.0\Floricultura.dll
+C:\Alura\Projetos pra Revisão do Valdinei\Floricultura\Floricultura\bin\Debug\netcoreapp2.0\Floricultura.pdb
+C:\Alura\Projetos pra Revisão do Valdinei\Floricultura\Floricultura\obj\Debug\netcoreapp2.0\Floricultura.csprojAssemblyReference.cache
+C:\Alura\Projetos pra Revisão do Valdinei\Floricultura\Floricultura\obj\Debug\netcoreapp2.0\Floricultura.AssemblyInfoInputs.cache
+C:\Alura\Projetos pra Revisão do Valdinei\Floricultura\Floricultura\obj\Debug\netcoreapp2.0\Floricultura.AssemblyInfo.cs
+C:\Alura\Projetos pra Revisão do Valdinei\Floricultura\Floricultura\obj\Debug\netcoreapp2.0\Floricultura.csproj.CoreCompileInputs.cache
+C:\Alura\Projetos pra Revisão do Valdinei\Floricultura\Floricultura\obj\Debug\netcoreapp2.0\Floricultura.dll
+C:\Alura\Projetos pra Revisão do Valdinei\Floricultura\Floricultura\obj\Debug\netcoreapp2.0\Floricultura.pdb
+C:\Alura\Projetos pra Revisão do Valdinei\Floricultura\Floricultura\obj\Debug\netcoreapp2.0\Floricultura.genruntimeconfig.cache
